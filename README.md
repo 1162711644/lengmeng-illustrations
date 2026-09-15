@@ -85,9 +85,39 @@ lengmeng-illustrations 是一个给 AI Agent 用的配图 Skill，用来指导�
 
 ## 示例效果
 
-> 示例图会随实际使用积累。冷檬的每张图都应让读者先觉得「好温柔」，再 1 秒看懂在讲什么。
+> 以下是为一篇「新人手机拍家常菜账号」口播文案生成的 5 张 16:9 横版配图，分别对应不同的认知锚点。
 
-首批样例待补充：通常一篇文章会产出 3-6 张，分别对应核心判断、前后对比、流程闭环、角色状态等不同结构类型。
+### 没有一键爆火开关
+
+![没有一键爆火开关](https://aka.doubaocdn.com/s/LBemsng6r8)
+
+> 冷檬踮脚悬在大红按钮上没按下去——开篇破除「打开开关就爆火」的幻想。
+
+### 每天一条，直到破万
+
+![每天一条直到破万](https://aka.doubaocdn.com/s/xt2YfrYlSV)
+
+> 小灶台、冒热气的小锅、一摞翻过的日历——零粉阶段靠日更熬出第一条万播。
+
+### 100 块 DOU+ 是打标签
+
+![100块DOU+是打标签](https://aka.doubaocdn.com/s/e46E5uJAXx)
+
+> 冷檬把「家常菜」标签贴进玻璃罐，周围飘来精准小头像——投流不是冲爆款，是让算法认人。
+
+### 第二个月，很多人在这放弃
+
+![第二个月低谷](https://aka.doubaocdn.com/s/53UVaIeqxn)
+
+> 路上的小背影纷纷回头，冷檬背着小黄包继续走向远处暖光——低谷期要扛住。
+
+### 重复多了就被记住
+
+![重复等于被记住](https://aka.doubaocdn.com/s/nyYo4psHiN)
+
+> 冷檬一次次端出家常菜，半透明的路人轮廓叠在一起终于点头——自媒体的底层是重复。
+
+这些图是风格校准样例，不是构图模板。实际使用时应从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。
 
 ---
 
@@ -102,7 +132,6 @@ git clone https://github.com/1162711644/lengmeng-illustrations.git
 把整个目录放到你的 skills 加载目录下（以豆包 / Doubao 工作区为例）：
 
 ```bash
-# 放到 .user_skills 目录
 cp -R lengmeng-illustrations ~/.doubao/agent_mode/workspace/.user_skills/
 ```
 
